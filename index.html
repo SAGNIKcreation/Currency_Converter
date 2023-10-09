@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>X Change | Currency Converter</title>
+</head>
+<body>
+    <!-- Header & Navbar -->
+    <header>
+        <nav>
+            <img src="Logo.png" alt="">
+            <p> CHANGE</p>
+            <div class="topLinks">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Operating Sections -->
+    <main>
+        <div class="mainContainer">
+            <div class="firstContainer">
+                <form action="/action.php" method="get">
+                    <h3>Recent Updates</h3>
+                    <label for="quantity">Enter Quantity:</label>
+                    <input type="number" name="quantity" min="1" max="10" placeholder="Enter Amount">
+                    <select name="currency">
+                        <option value="">Select your option</option>
+                        <option value="INR">Indian Rupee</option>
+                        <option value="USD">US Dollar</option>
+                        <option value="CAD">Canadian Dollar</option>
+                        <option value="EUR">Euro</option>
+                        <option value="GBP">Pound</option>
+                        <option value="RUB">Russian Ruble</option>
+                        <option value="CNY">Chinese Yuan</option>
+                        <option value="ARS">Argentine Peso</option>
+                        <option value="BRL">Brazilian Real</option>
+                    </select>
+                    <button class="btn" type="submit">Calculate</button>
+                </form>
+            </div>
+            <div class="secondContainer">
+                <div class="mainText">
+                    <h1>BEST CURRENCY EXCHANGE <span>WEBSITE</span></h1>
+                    <h3>Currency Conversion gets Simpler.</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Output Tables -->
+        <div class="output">
+            <h1>Here is your converted values in different currencies</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Currency Name</th>
+                        <th>Currency Code</th>
+                        <th>Currency Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>
+        <div class="founder">
+            <p>Copyright &copy; 2023 | Created by Sagnik Sanyal</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript File Attaching -->
+    <script src="script.js"></script>
+</body>
+</html>

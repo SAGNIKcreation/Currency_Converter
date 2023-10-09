@@ -1,0 +1,157 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: transparent;
+    color: white;
+    display: flex;
+}
+nav img{
+    margin-top: 15px;
+    margin-left: 95px;
+    width: 40px;
+    height: 40px;
+}
+.topLinks {
+    font-weight: bolder;
+    padding-left: 875px;
+    padding-top: 21px;
+    font-size: 25px;
+}
+.topLinks a{
+    color: white;
+    padding-left: 15px;
+    transition: 0.5s ease;
+}
+nav p{
+    font-weight: bolder;
+    padding-left: 2px;
+    padding-top: 21px;
+    font-size: 25px;
+    transition: 0.5s ease;
+}
+nav p:hover{
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+.topLinks a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: red;
+}
+.mainContainer{
+    display: flex;
+}
+.firstContainer{
+    margin-top: 150px;
+    margin-left: 150px;
+    background-color:rgba(0, 0, 0, 0.356);
+    border-radius: 5px;
+    border: 3px solid red;
+    height: 300px;
+    width: 300px;
+}
+.firstContainer form{
+    display: grid;
+    padding-top: 50px;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+}
+.firstContainer form h3{
+    padding-left: 7px;
+    color: white;
+    font-size: 25px;
+}
+.firstContainer form label{
+    color: white;
+    font-size: 15px;
+}
+.firstContainer form input{
+    border: none;
+    height: 40px;
+    padding-left: 5px;
+    font-size: 17px;
+    margin-top: 0px;
+}
+.firstContainer form select{
+    border: none;
+    height: 40px;
+    padding-left: 5px;
+    font-size: 15px;
+    margin-top: 0px;
+    
+}
+.firstContainer button{
+    color: white;
+    border: none;
+    background-color: red;
+    border: none;
+    height: 38px;
+    padding-left: 5px;
+    font-size: 15px;
+    margin-top: 0px;
+}
+.secondContainer{
+    font-size: 25px;
+    color: white;
+    height: 300px;
+    width: 700px;
+    margin-top: 175px;
+    margin-left: 100px;
+    text-shadow: -1px 1px 0 #000, 
+                 1px 1px 0 #000, 
+                 1px -1px 0 #000, 
+                 -1px -1px 0 #000;
+}
+.secondContainer .mainText span{
+    color: red;
+}
+footer{
+    height: 100px;
+    margin-top: 100px;
+    background-color: rgb(18, 12, 12);
+    color: white;
+}
+footer .founder{
+    display: grid;
+    padding-top: 25px;
+    font-size: 20px;
+    margin-left: 600px;
+}
+.output {
+    display: none;
+    margin-left: 150px;
+    text-shadow: -1px 1px 0 #000, 
+                 1px 1px 0 #000, 
+                 1px -1px 0 #000, 
+                 -1px -1px 0 #000;
+}
+
+.output table {
+    width: 50vw;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+}
+.output h1{
+    color: white;
+}
+
+.output table thead tr th{
+    color: red;
+    padding: 3px;
+}
+.output table tbody tr td{
+    color: white;
+    padding: 3px;
+}
